@@ -1,0 +1,261 @@
+{% load static%}
+{% static "img" as baseUrl %}
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="description" content="Entrenamiento en habilidades comunicativas, habilidades blandas, y coaching integral">
+	    <meta name="keywords" content="oratoria, coaching, coach, habilidades blandas, coaching integral, habilidades comunicativas">
+	    <title>
+	    	Escuela de oratoria AEDA
+	    </title>
+	    <link rel="shortcut icon" href="{% static './posts/img/iconEmp.png' %}">
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	    <link rel="stylesheet" href="{% static './posts/css/normalize.css' %}">
+	    <link rel="stylesheet" href="{% static './posts/css/style.css' %}">
+	    <meta name="viewport" content="width=device-with, initial-scale=1.0">
+	    <script src="https://kit.fontawesome.com/5dd3d5e50e.js" crossorigin="anonymous"></script>
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<a href="#temas" id="logo-inicio">
+					<img src="{% static './posts/img/LogoVOficialFinal.png' %}" class="logo" >
+				</a>
+				<nav>
+					<a href="#inicio" style="font-size: 16px;">Inicio</a>
+					<a href="#temas" style="font-size: 16px;">Oratoria</a>
+					<a href="#contacto" style="font-size: 16px;">Contacto</a>
+					<a href="#galeria" style="font-size: 16px;">Galería</a>
+					<a href="#misionvision" style="font-size: 16px;">Misión y visión</a>
+				</nav>
+				<a href="#" class="bars-menu"><i class="fa-solid fa-bars"></i></a>
+			</div>
+		</header>
+		<main>
+			<section id="inicio">
+				<img src="{% static './posts/img/FotoHeaderOficialFiltro.png' %}">
+				<div class="bloque-inicio">
+					<div class="container-fluid">
+						<h2>Te imaginas un entrenamiento de oratoria con...</h2>
+						<div class="bloque-presentacion-temas">
+							<div class="box columna-mobile-100 cont">
+								<p>&nbsp;Habilidades comunicativas - Oratoria&nbsp;</p>
+							</div>
+							<div class="box columna-mobile-100 cont">
+								<p>&nbsp;Habilidades blandas&nbsp;</p>
+							</div>
+							<div class="box columna-mobile-100 cont">
+								<p>&nbsp;Coaching Integral&nbsp;</p>
+							</div>
+						</div>
+					</div>
+					<div class="container-fluid">
+						<div class="row">
+							<!-- Te dirige al Whatsapp (Oratoria) -->
+							<div class="columna columna-50 columna-mobile-100">
+								<p style="color:white" class="invitacion"><strong>¿QUIERES PARTICIPAR?</strong></a>
+							</div>
+							<div class="columna columna-50 columna-mobile-100 direct-whats">
+								<a href="https://api.whatsapp.com/send?phone=51916648174&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20del%20curso%20de%20oratoria&fbclid=IwAR0evHEAN5xY-iIT_ep0shXQ9F2kZKibH73Ndvr_Q2sqFTyE3FraxBlNpNQ" class="boton boton-verde">Empieza ahora en <br> WHATSAPP</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="temas">
+				<div class="container">
+					<div class="row">
+						<h1 class="columna">Conmigo aprenderás</h1>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<div class="bloque-intro-tema">
+						<div class="box columna-mobile-100 cont">
+							<div class="bloque-temas">
+								<div class="bloque-img-temas cuadrado-perfecto">
+									<img src="{% static './posts/img/menu_foto1.jpg' %}">
+								</div>
+								<div class="bloque-contenido-temas">
+									<h3>ORATORIA</h3>
+									<p>Habilidades Comunicativas - Oratoria: 35 Técnicas para hablar en público (Libro) La biblioa de la Oratoria con PNL</p>
+									<p>Técnica 1: Autoconocimiento</p>
+									<p>Técnica 2: Auto-Empoderamiento</p>
+									<p>Técnica 3: Modulación de voz</p>
+									<p>Técnica 4: Guiones</p>
+									<p>Discurso Pedagógico</p>
+									<p>Discurso Político</p>
+									<p>Discurso Motivacional</p>
+									<a href="#contacto" class="boton boton-negro">Más info</a>
+								</div>
+							</div>
+						</div>
+						<div class="box columna-mobile-100 cont">
+							<div class="bloque-temas">
+								<div class="bloque-img-temas cuadrado-perfecto">
+									<img src="{% static './posts/img/menu_foto2.jpg' %}">
+								</div>
+								<div class="bloque-contenido-temas">
+									<h3>HABILIDADES BLANDAS</h3>
+									<p>Trabajo en equipo</p>
+									<p>Resiliencia</p>
+									<p>Inteligencia Emocional</p>
+									<p>Gestión de Emociones</p>
+									<p>Como ser un líder</p>
+									<p>Como ser un líder competitivo</p>
+									<p>Caracteristicas de un Líder</p>
+									<p>Como líder de equipos</p>
+									<a href="#contacto" class="boton boton-negro">Más info</a>
+								</div>
+							</div>
+						</div>
+						<div class="box columna-mobile-100 cont">
+							<div class="bloque-temas">
+								<div class="bloque-img-temas cuadrado-perfecto">
+									<img src="{% static './posts/img/menu_foto3.jpg' %}">
+								</div>
+								<div class="bloque-contenido-temas">
+									<h3>COACHING</h3>
+									<p>Propósito de Vida</p>
+									<p>Elaboración de tabla de Metas</p>
+									<p>Creencias limitantes</p>
+									<p>Modelos mentales</p>
+									<p>Sanación y liberación silla rota</p>
+									<p>Salto al Vacío - Liberación</p>
+									<p>Caminata sobre Brazas Ardientes</p>
+									<a href="#contacto" class="boton boton-negro">Más info</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contacto" class="section">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="columna columna-50 columna-mobile-100">
+							<div class="bloque-contacto">
+								<div class="bloque-img-contacto cuadrado-perfecto">
+									<img src="{% static './posts/img/ContactosFoto.jpeg' %}">
+								</div>
+							</div>
+						</div>
+						<div class="columna columna-50 columna-mobile-100">
+							<div class="bloque-info-contacto">
+								<h1>CONTÁCTAME</h1>
+								<p >COACH EJECUTIVO: Leonardo Leon<br>
+								<p ><strong>CERTIFICACIÓN INTERNACIONAL</strong> DE LA FEDERACIÓN LATINOAMERICANA DE COACHING<br>
+								<p ><strong>PROFESIONAL FELCOP</strong></p>
+								<p ><strong>COACH DOCENTES</strong> Certificado por la Universidad Catóica San Pablo - Arequipa</p>
+								<p><strong>ESCRITOR</strong> del Libro <em>La Biblia de la Oratoria Moderna con PNL, Yo soy Lider</em></p>
+								<p><strong>DOCENTE</strong> de la I.E.P. San Lorenzo - Nivel Secundario</p>
+								<p><strong>DOCENTE</strong> de la I.E.P. Domingo de Guzmán - Nivel Primario y Secundario</p>
+								<p ><strong>DIRECTOR</strong> de la Escuela de Cobferencistas AEDA - Arequipa</p>
+								<P ><strong>PROFESIONAL</strong> en Administración de Empresas - Derecho</p>
+
+								<p>Para mayor información sobre los cursos puedes contactarme por:</p>
+						
+								<ul class="redes">
+									<li>
+										<a href="https://www.facebook.com/EscuelaDeConferencistasAEDA">
+											<i class="fa-brands fa-square-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://api.whatsapp.com/send?phone=51916648174&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20del%20curso%20de%20oratoria&fbclid=IwAR0evHEAN5xY-iIT_ep0shXQ9F2kZKibH73Ndvr_Q2sqFTyE3FraxBlNpNQ">
+											<i class="fa-brands fa-whatsapp"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://youtube.com/@escueladeconfefencistasaed7374">
+											<i class="fa-brands fa-youtube"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="galeria">
+				<div class="container">
+					<div class="row">
+						<h1 class="columna">Mi Galería</h1>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<div class="row">
+						{% for img in imgs %}
+						<div class="columna-33 columna-mobile-50">
+							<div class="cuadrado-perfecto">
+								<img src="{{img.imagen.url}}">
+								<h4>{{img.descripcion}}</h4>
+							</div>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+			</section>
+			<section id="misionvision" class="section">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="columna columna-50 columna-mobile-100">
+							<div class="bloque-misvis">
+								<h1>Misión</h1>
+								<p>Brindar enseñanza de calidad en el entrenamiento en habilidades comunicativas usando las herramientas para formar líderes capaces de enfrentar los desafíos del mundo globalizado y compatitivo.</p>
+							</div>
+						</div>
+						<div class="columna columna-50 columna-mobile-100">
+							<div class="bloque-misvis">
+								<h1>Visión</h1>
+								<p>Ser la empresa líder en el entrenamiento en habilidades comunicativas con alto impacto, empoderamiento y liderazgo nunca antes vista en nuestra ciudad Arequipa.</p>
+							</div>
+						</div>
+					</div>					
+				</div>
+			</section>
+		</main>
+		<footer>
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="columna columna-25 columna-mobile-100">
+	    				<img src="{% static './posts/img/LogoVOficial.png' %}" class="logo-footer">
+	    				<!--<p>Aqui algo de texto</p>-->
+	    			</div>
+	    			<div class="columna columna-25 columna-mobile-100">
+	    				<h3>Redes sociales</h3>
+	    				<ul class="redes">
+	    					<li>
+	    						<a href="https://www.facebook.com/EscuelaDeConferencistasAEDA">
+	    							<i class="fa-brands fa-square-facebook"></i>
+	    						</a>
+	    					</li>
+	    					<li>
+	    						<a href="https://www.tiktok.com/@oratoria_aeda?_t=8bd5ssHuuyD&_r=1">
+	    							<i class="fa-brands fa-tiktok"></i>
+	    						</a>
+	    					</li>
+	    					<li>
+	    						<a href="https://youtube.com/@escueladeconfefencistasaed7374">
+								<i class="fa-brands fa-youtube"></i>
+							</a>
+	    					</li>
+	    				</ul>
+	    			</div>
+	    			<div class="columna columna-50 columna-mobile-100">
+	    				<h3>Encuentranos en:</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239.21888031163604!2d-71.54023937219718!3d-16.39930752763623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a5a293669a3%3A0xe245b702d96f617b!2sOratoria%20AEDA!5e0!3m2!1sen!2spe!4v1681548592193!5m2!1sen!2spe" width="95%" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<div class="barra-footer">
+	    		&copy; Derechos reservados - 2023
+	    	</div>
+		</footer>
+		<script src="{% static './posts/js/jquery.js' %}"></script>
+		<script src="{% static './posts/js/funciones.js' %}"></script>
+	</body>
+</html>
